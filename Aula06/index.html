@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+</head>
+<body>
+   
+
+    <h2>Tabuada do 5</h2>
+    <p id="tab"></p>
+
+</body>
+<script>
+
+    // Tabuada do 5
+
+    let res = "";
+    for(let cont = 0; cont <= 10; cont++){
+        res += "5 X " + cont + " = " + (5 * cont) + "<br>";
+    }
+
+    document.getElementById("tab").innerHTML = res;
+
+</script>
+
+</html>
